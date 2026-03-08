@@ -1,24 +1,24 @@
 <svg width="360" height="210" xmlns="http://www.w3.org/2000/svg">
 <style>
 svg {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
 }
 
 #background {
-  width: calc(100% - 10px);
-  height: calc(100% - 10px);
-  fill: white;
-  stroke: rgb(225, 228, 232);
+  width: 100%;
+  height: 100%;
+  fill: #22272e;
+  stroke: #444c56;
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
 }
 
 foreignObject {
-  width: calc(100% - 10px - 32px);
-  height: calc(100% - 10px - 24px);
+  width: calc(100% - 42px);
+  height: calc(100% - 32px);
 }
 
 h2 {
@@ -27,8 +27,7 @@ h2 {
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
-  color: rgb(36, 41, 46);
-  fill: rgb(36, 41, 46);
+  color: #cdd9e5;
 }
 
 ul {
@@ -45,26 +44,14 @@ li {
   align-items: center;
   flex-wrap: nowrap;
   transform: translateX(-500%);
-  animation-duration: 2s;
-  animation-name: slideIn;
-  animation-function: ease-in-out;
-  animation-fill-mode: forwards;
+  animation: slideIn 2s ease-in-out forwards;
 }
 
 @keyframes slideIn {
-  to {
-    transform: translateX(0);
-  }
-}
-
-div.ellipsis {
-  height: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  to { transform: translateX(0); }
 }
 
 .octicon {
-  fill: rgb(88, 96, 105);
   margin-right: 0.5ch;
   vertical-align: top;
 }
@@ -73,49 +60,33 @@ div.ellipsis {
   display: flex;
   height: 8px;
   overflow: hidden;
-  background-color: rgb(225, 228, 232);
+  background-color: #2d333b;
   border-radius: 6px;
-  outline: 1px solid transparent;
   margin-bottom: 1em;
 }
 
 .progress-item {
-  outline: 2px solid rgb(225, 228, 232);
-  border-collapse: collapse;
+  outline: 2px solid #22272e;
 }
 
 .lang {
   font-weight: 600;
   margin-right: 4px;
-  color: rgb(36, 41, 46);
+  color: #cdd9e5;
 }
 
 .percent {
-  color: rgb(88, 96, 105)
+  color: #adbac7;
 }
 </style>
-<g transform="translate(5, 5)">
-<rect id="background" />
-<g transform="translate(16, 16)">
-<foreignObject>
-<div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
-
+<g>
+<rect x="0" y="0" id="background" />
+<foreignObject x="21" y="17" width="318" height="176">
+<div xmlns="http://www.w3.org/1999/xhtml">
 <h2>Languages Used (By File Size)</h2>
-
-<div>
-<span class="progress">
-{{ progress }}
-</span>
-</div>
-
-<ul>
-
-{{ lang_list }}
-
-</ul>
-
+<div><span class="progress">{{ progress }}</span></div>
+<ul>{{ lang_list }}</ul>
 </div>
 </foreignObject>
-</g>
 </g>
 </svg>
