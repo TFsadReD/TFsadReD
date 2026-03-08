@@ -16,4 +16,4 @@
 
 
 # <img alt="📈" src="https://twemoji.maxcdn.com/v/13.1.0/72x72/1f4c8.png" height="28px" align="left" /> GitHub Stats:
-[![Моя статистика](images/userstats.svg)](https://github.com/cicirello/user-statistician)
+![Languages Used](images/languages.svg)
