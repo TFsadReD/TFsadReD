@@ -84,14 +84,14 @@ li {
 <foreignObject x="21" y="17" width="318" height="176">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <h2>Languages Used (By File Size)</h2>
-<div><span class="progress"><span style="background-color: #3572A5;width: 78.370%;" class="progress-item"></span><span style="background-color: #e34c26;width: 17.108%;" class="progress-item"></span><span style="background-color: #178600;width: 2.744%;" class="progress-item"></span><span style="background-color: #DA5B0B;width: 1.777%;" class="progress-item"></span></span></div>
+<div><span class="progress"><span style="background-color: #3572A5;width: 78.400%;" class="progress-item"></span><span style="background-color: #e34c26;width: 17.084%;" class="progress-item"></span><span style="background-color: #178600;width: 2.740%;" class="progress-item"></span><span style="background-color: #DA5B0B;width: 1.775%;" class="progress-item"></span></span></div>
 <ul>
 <li style="animation-delay: 0ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3572A5;"
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Python</span>
-<span class="percent">78.37%</span>
+<span class="percent">78.40%</span>
 </li>
 
 
@@ -100,7 +100,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">HTML</span>
-<span class="percent">17.11%</span>
+<span class="percent">17.08%</span>
 </li>
 
 
@@ -118,7 +118,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Jupyter Notebook</span>
-<span class="percent">1.78%</span>
+<span class="percent">1.77%</span>
 </li>
 
 </ul>
