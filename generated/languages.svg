@@ -84,14 +84,14 @@ li {
 <foreignObject x="21" y="17" width="318" height="176">
 <div xmlns="http://www.w3.org/1999/xhtml">
 <h2>Languages Used (By File Size)</h2>
-<div><span class="progress"><span style="background-color: #3572A5;width: 70.016%;" class="progress-item"></span><span style="background-color: #e34c26;width: 23.402%;" class="progress-item"></span><span style="background-color: #178600;width: 2.174%;" class="progress-item"></span><span style="background-color: #663399;width: 1.972%;" class="progress-item"></span><span style="background-color: #DA5B0B;width: 1.408%;" class="progress-item"></span><span style="background-color: #dea584;width: 0.608%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 0.420%;" class="progress-item"></span></span></div>
+<div><span class="progress"><span style="background-color: #3572A5;width: 69.860%;" class="progress-item"></span><span style="background-color: #e34c26;width: 23.350%;" class="progress-item"></span><span style="background-color: #178600;width: 2.169%;" class="progress-item"></span><span style="background-color: #663399;width: 1.967%;" class="progress-item"></span><span style="background-color: #DA5B0B;width: 1.405%;" class="progress-item"></span><span style="background-color: #dea584;width: 0.830%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 0.419%;" class="progress-item"></span></span></div>
 <ul>
 <li style="animation-delay: 0ms;">
 <svg xmlns="http://www.w3.org/2000/svg" class="octicon" style="fill:#3572A5;"
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Python</span>
-<span class="percent">70.02%</span>
+<span class="percent">69.86%</span>
 </li>
 
 
@@ -100,7 +100,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">HTML</span>
-<span class="percent">23.40%</span>
+<span class="percent">23.35%</span>
 </li>
 
 
@@ -136,7 +136,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Rust</span>
-<span class="percent">0.61%</span>
+<span class="percent">0.83%</span>
 </li>
 
 
